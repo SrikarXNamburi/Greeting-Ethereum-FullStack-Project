@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import { ethers } from 'ethers';
-import Greeter from './artifacts/contracts/Greeter.sol/Greeter.json';
+import Greeter from '../utils/Greeter.json';
 
 const greeterAddress = '0x131a221B17EC0EB369936765900f835dA66aCD26';
 
